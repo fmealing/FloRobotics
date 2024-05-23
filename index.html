@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <h1>Personal Portfolio - Florian Mealing</h1>
+      <button id="header-button" class="header-button">
+        <a href="https://github.com/fmealing" target="_blank">My GitHub page</a>
+      </button>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- About Me Section -->
+      <section class="me-section">
+        <div class="description">
+          <h2 class="me-heading">Summary of Me</h2>
+          <p class="me-paragraph">
+            I recently finished my second year at the University of Birmingham
+            and am spending my summer improving my knowledge. My goal is to make
+            the world a better place. Often we limit ourselves, but it is my
+            opinion, that with enough work, anything is possible. My interests
+            are Mechanical, Electrical and Software Engineering and I am
+            fascinated by AI, IoT devices and I also have a soft spot for
+            physics.
+          </p>
+        </div>
+        <img src="generic man.jpg" alt="generic man" class="profile-pic" />
+      </section>
+
+      <!-- Projects and Skills section -->
+      <section class="projects-skills-section">
+        <div class="projects">
+          <div class="projects-header">
+            <h2>My Projects</h2>
+            <select id="sort-projects-dropdown" class="projects-selection">
+              <option value="asc">A-Z</option>
+              <option value="desc">Z-A</option>
+            </select>
+          </div>
+          <ul id="projects-list">
+            <li>Recipe website using HTML and CSS</li>
+            <li>Movie Website using React</li>
+            <li>Travel Website using React</li>
+            <li>
+              Website for Hotel employees to check in guests, including a login
+              using Supabase, React and Styled Components
+            </li>
+            <li>
+              Power systems for an electrolysis unit as part of a green hydrogen
+              production facility using Simscape
+            </li>
+            <li>Synchronous Finite State Machine using D type flip flop</li>
+            <li>
+              As an upcoming project, I am building a social media website
+            </li>
+          </ul>
+        </div>
+        <div class="skills">
+          <div class="skills-header">
+            <h2>My Skills</h2>
+            <select id="sort-skills-dropdown" class="skills-selection">
+              <option value="desc">Best to Least Skilled</option>
+              <option value="asc">Least to Best Skilled</option>
+            </select>
+          </div>
+          <ul id="skills-list">
+            <li>JavaScript - Intermediate</li>
+            <li>HTML & CSS - Intermediate</li>
+            <li>React - Beginner/Intermediate</li>
+            <li>Node.js - Beginner</li>
+            <li>Python - Beginner/Intermediate</li>
+            <li>C - Beginner/Intermediate</li>
+            <li>MATLAB - Intermediate</li>
+            <li>Future goals: Perfecting these languages and learning C++</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <h2>Contact Me</h2>
+      <p>
+        Email:
+        <a href="mailto:florianmealing@gmail.com" class="footer-email"
+          >florianmealing@gmail.com</a
+        >
+        | LinkedIn:
+        <a href="https://www.linkedin.com/in/florianmealing" class="footer-link"
+          >FlorianMealing</a
+        >
+        | TikTok:
+        <a href="https://www.tiktok.com/@FloRobotics" class="footer-link"
+          >FloRobotics</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
