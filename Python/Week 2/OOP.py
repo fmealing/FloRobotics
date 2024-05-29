@@ -1,3 +1,8 @@
+# This is part of a python class on Udemy
+# Link: "https://www.udemy.com/course/python-the-complete-python-developer-course/?couponCode=KEEPLEARNING"
+
+
+
 # ducks.py
 class Wing(object):
 
